@@ -1,16 +1,40 @@
-# React + Vite
+# CRUD-AXIOS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application built with Vite that demonstrates CRUD (Create, Read, Update, Delete) operations using Axios for HTTP requests. This project provides a clean, efficient, and scalable foundation for building full-stack applications with real-time data management.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ⚡ **Fast Development** - Powered by Vite with HMR (Hot Module Replacement)
+- 🔄 **CRUD Operations** - Complete implementation of Create, Read, Update, and Delete operations
+- 📡 **Axios Integration** - Seamless HTTP client for API communication
+- ⚛️ **React 18+** - Latest React features and best practices
+- 📦 **Minimal Setup** - Clean project structure and configuration
+- 🎨 **ESLint Rules** - Code quality and consistency checks
 
-## React Compiler
+## Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `src/` - Source code directory
+  - `components/` - Reusable React components
+  - `services/` - Axios API service layer
+  - `pages/` - Page components
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend Framework**: React 18+
+- **Build Tool**: Vite
+- **HTTP Client**: Axios
+- **Development Server**: Vite with HMR
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/murugesh168/CRUD-AXIOS.git
+cd CRUD-AXIOS
